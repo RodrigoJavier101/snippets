@@ -30,6 +30,22 @@
 		],
 		"description": "lamda simple"
 	},
+	"lamda line": {
+		"prefix": "lam__",
+		"body": [
+			"()=> $1"
+		],
+		"description": "lamda line"
+	},
+	"lamda function": {
+		"prefix": "lam___",
+		"body": [
+			"function()=>{",
+			"  $1",
+			"} "
+		],
+		"description": "lamda function"
+	},
 	"console log": {
 		"prefix": "cl",
 		"body": [
